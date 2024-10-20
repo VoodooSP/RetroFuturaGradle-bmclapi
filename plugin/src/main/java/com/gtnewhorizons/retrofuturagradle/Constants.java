@@ -7,11 +7,12 @@ import com.google.common.collect.ImmutableList;
 public final class Constants {
 
     // URLs
-    public static final String URL_MOJANG_LIBRARIES_MAVEN = "https://libraries.minecraft.net";
-    public static final String URL_FORGE_MAVEN = "https://maven.minecraftforge.net";
+    // Change to bmclapi because the official repo is slow in some areas
+    public static final String URL_MOJANG_LIBRARIES_MAVEN = "https://bmclapi2.bangbang93.com/maven";
+    public static final String URL_FORGE_MAVEN = "https://bmclapi2.bangbang93.com/maven";
     public static final String URL_SPONGEPOWERED_MAVEN = "https://repo.spongepowered.org/maven/";
-    public static final String URL_LAUNCHER_VERSION_MANIFEST = "https://launchermeta.mojang.com/mc/game/version_manifest.json";
-    public static final String URL_ASSETS_ROOT = "https://resources.download.minecraft.net/";
+    public static final String URL_LAUNCHER_VERSION_MANIFEST = "https://bmclapi2.bangbang93.com/mc/game/version_manifest.json";
+    public static final String URL_ASSETS_ROOT = "https://bmclapi2.bangbang93.com/assets";
     public static final String URL_FERNFLOWER_1 = "https://files.minecraftforge.net/fernflower-fix-1.0.zip";
     public static final String URL_PLAYER_TO_UUID = "https://api.mojang.com/users/profiles/minecraft/";
 

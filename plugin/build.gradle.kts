@@ -25,7 +25,7 @@ evaluationDependsOnChildren()
 repositories {
   maven {
     name = "forge"
-    url = uri("https://maven.minecraftforge.net")
+    url = uri("https://bmclapi2.bangbang93.com/maven")
     mavenContent {
       includeGroup("net.minecraftforge")
       includeGroup("net.minecraftforge.srg2source")
@@ -35,7 +35,7 @@ repositories {
   }
   maven {
     name = "mojang"
-    url = uri("https://libraries.minecraft.net/")
+    url = uri("https://bmclapi2.bangbang93.com/maven")
     mavenContent {
       includeGroup("com.ibm.icu")
       includeGroup("com.mojang")
@@ -63,7 +63,11 @@ repositories {
       includeGroup("org.cadixdev")
     }
   }
-  mavenCentral {}
+  maven {
+    name = "maven-mirror"
+    url = uri("https://repo.huaweicloud.com/repository/maven/")
+  }
+  //mavenCentral {}
   gradlePluginPortal()
 }
 

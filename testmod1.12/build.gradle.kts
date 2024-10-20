@@ -25,7 +25,11 @@ buildscript {
 }
 
 repositories {
-    mavenCentral()
+    maven {
+        name = "maven-mirror"
+        url = uri("https://repo.huaweicloud.com/repository/maven/")
+    }
+    //mavenCentral()
     mavenLocal()
 }
 
